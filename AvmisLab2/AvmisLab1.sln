@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AvmisLab1", "AvmisLab1\AvmisLab1.vcxproj", "{62C428B2-5CB4-4557-B2B2-ECCFAA36BFC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Intel_SSA|Win32 = Intel_SSA|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C428B2-5CB4-4557-B2B2-ECCFAA36BFC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62C428B2-5CB4-4557-B2B2-ECCFAA36BFC1}.Debug|Win32.Build.0 = Debug|Win32
+		{62C428B2-5CB4-4557-B2B2-ECCFAA36BFC1}.Intel_SSA|Win32.ActiveCfg = Intel_SSA|Win32
+		{62C428B2-5CB4-4557-B2B2-ECCFAA36BFC1}.Intel_SSA|Win32.Build.0 = Intel_SSA|Win32
+		{62C428B2-5CB4-4557-B2B2-ECCFAA36BFC1}.Release|Win32.ActiveCfg = Release|Win32
+		{62C428B2-5CB4-4557-B2B2-ECCFAA36BFC1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
