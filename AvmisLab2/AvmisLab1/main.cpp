@@ -134,9 +134,12 @@ double* MulMatrixASM(double* matrixA, double* matrixB)
 		{
 			for (int inner1 = 0; inner1 < M; inner1++)
 			{
-				double mas[4] = {2.0,2.0,2.0,2.0};
+				//float mas[4] = {2,2,2,2};
+
+				//float gag = *mas; 
 
 				int gdg = 0;
+
 				_asm
 				{
 					mov ecx,0
@@ -271,8 +274,10 @@ double* MulMatrixASM(double* matrixA, double* matrixB)
 							/// koofC  -------------------------------------------
 
 							//mov eax,dword ptr [m1] 
-							mov esi,koofA
-							mov eax,dword ptr mas[0]  
+
+							mov esi,matrixA
+							
+							mov eax,dword ptr [esi] 
 							mov gdg,eax
 							//mov    edx,dword ptr [matrixB]  
 							//mov    ebx,dword ptr [result] 
